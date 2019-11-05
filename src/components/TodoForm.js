@@ -41,7 +41,7 @@ const NewTodoForm = () => {
             <input type="text" value={amount} onChange={(e) => setAmount(e.target.value)} required/>
             </label>
             <label>
-            Amount:
+            Status:
             <select onChange={(e) => setStatus(e.target.value)}>
             <option value="Uploading">Uploading</option>
             <option value="Analyzing">Analyzing</option>
