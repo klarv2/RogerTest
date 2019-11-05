@@ -35,7 +35,7 @@ const NewTodoForm = () => {
             <input type="text" value={vendor} onChange={(e) => setFile(e.target.value)} required/>
             </label>
             <label>
-            Amount:
+            Status:
             <input type="text" value={amount} onChange={(e) => setFile(e.target.value)} required/>
             </label>
             <input type="submit" value="add todo"/>
