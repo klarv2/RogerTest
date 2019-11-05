@@ -13,7 +13,6 @@ const TodoContextProvider = (props) => {
       {status:'Analyzing'},
       {status:'Unpaid'},
       {status:'Paid'}
-
   ]
   const addTodo = (title, file, vendor, amount, date, status) => {
     setTodos([...todos, {title, file, vendor, amount, date, status, id: uuid()}]);

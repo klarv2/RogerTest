@@ -14,7 +14,6 @@ export const ExpenseListRoute: React.FC<{}> = () => {
       <TodoList />
       <NewTodoForm />
     </TodoContextProvider>
-      
     </>
   )
 }

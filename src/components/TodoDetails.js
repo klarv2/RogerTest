@@ -15,5 +15,4 @@ const TodoDetails = ({ todo }) => {
         </li>
     )
 }
-
 export default TodoDetails;
